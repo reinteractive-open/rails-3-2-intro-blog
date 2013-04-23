@@ -1,0 +1,30 @@
+<nav class="top-bar">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1>
+        <%= link_to 'Your Blog Name', root_path %>
+      </h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+  <section class="top-bar-section">
+    <ul class="right">
+      <li class="divider hide-for-small"></li>
+      <li>
+        <%= link_to 'Github', 'https://github.com/reInteractive' %>
+      </li>
+
+      <li class="divider hide-for-small"></li>
+      <li>
+        <%= link_to 'Twitter', 'https://twitter.com/lgarvey' %>
+      </li>
+
+      <li class="divider hide-for-small"></li>
+      <li>
+        <%= link_to 'About me', '/about' %>
+      </li>
+    </ul>
+  </section>
+</nav>

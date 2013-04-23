@@ -1,0 +1,17 @@
+input[type="submit"] {
+  @include button;
+}
+
+div#main {
+  @include grid-row;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #000;
+  color: #eee;
+  text-align: center;
+  p {
+    line-height: 100px;
+  }
+}
