@@ -24,3 +24,7 @@ gem 'jquery-rails'
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
 end
+
+group :test do
+  gem 'capybara'
+end
