@@ -91,8 +91,6 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    maruku (0.6.1)
-      syntax (>= 1.0.0)
     meta_search (1.1.3)
       actionpack (~> 3.1)
       activerecord (~> 3.1)
@@ -158,7 +156,6 @@ GEM
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
     sqlite3 (1.3.7)
-    syntax (1.0.0)
     thor (0.18.1)
     tilt (1.3.7)
     treetop (1.4.12)
@@ -183,7 +180,6 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 3.2.1)
   jquery-rails
-  maruku
   meta_search (>= 1.1.0.pre)
   pg
   rails (~> 3.2.1)
