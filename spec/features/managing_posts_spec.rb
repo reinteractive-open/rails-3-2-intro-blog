@@ -49,6 +49,17 @@ feature 'Managing blog posts' do
 
         expect(page).to have_content 'Not really Awesome Blog Post'
       end
+
+      scenario 'Publishing an existing blog' do
+        visit admin_post_path(@post)
+        click_link 'Edit Post'
+
+        check 'post_published'
+        click_button 'Update Post'
+
+        expect(page).to have_content 'Post was successfully updated'
+        expect(Post.last.published?).to be_true
+      end
     end
   end
 end
