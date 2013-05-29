@@ -8,4 +8,6 @@ QuickBlog::Application.routes.draw do
   resources :posts do
     resources :comments, :only => [:create]
   end
+
+  get '/about', :to => 'pages#about'
 end
